@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:background="#bfff00">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/id"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/questionTextV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/optAButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/optBButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/optCButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/optDButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/deleteButton"
+        android:layout_gravity="right"
+        android:onClick="onClickButtonDelete"
+        android:textColor="#000000"
+        android:background="#00ffff"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/answerTextV"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/explanationTextV"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
